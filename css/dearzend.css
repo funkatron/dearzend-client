@@ -1,0 +1,70 @@
+body {
+	font-size: 62.5%;
+	margin:0px;
+	padding:0px;
+	height:100%;
+	font-family: Segoe UI, Helvetica, Arial, sans-serif;
+	background: #cdc2a1 url(images/cdc2a1_40x100_textures_01_flat_0.png) 0 0 repeat-x;
+}
+
+
+#entrybox {
+	width:100%;
+	height:250px;
+	font-size:18pt;
+}
+
+#tabs {
+	position:absolute;
+	top:   0px;
+	left:  0px;
+	right: 0px;
+	bottom:18px;
+	overflow:auto;
+	background:#1B1613;
+}
+
+.ui-tabs-nav {
+
+}
+
+.ui-tabs-nav, 
+.ui-tabs-nav-item {
+	border:none;
+}
+.ui-tabs-panel {
+	position:relative;
+	bottom:0px;
+	top:   0px;
+	border:none;
+}
+
+.letter {
+	padding:10px;
+}
+	.letter>.body {
+		font-size:12pt;
+	}
+	.letter>.posted, .letter>.favorite {
+		display:inline;
+		background-color:#AFA599;
+		cursor:pointer;
+		color:#444422;
+		cursor:pointer;
+		padding:3px;
+		-webkit-border-radius:6pt;
+	}
+.letter+.letter {
+	border-top:1px dotted #382f28;
+}
+
+#status {
+	background: #382f28 url(images/382f28_40x100_textures_02_glass_10.png) 0 50% repeat-x;
+	color:#DDD;
+	padding:4px;
+	height:10px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	position:absolute;
+}

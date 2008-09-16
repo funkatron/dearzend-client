@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>DearZend</title>
+	
+	<!-- AIR libs -->
+	<script src="lib/air/AIRAliases.js" type="text/javascript" charset="utf-8"></script>
+	<script src="lib/air/AIRIntrospector.js" type="text/javascript" charset="utf-8"></script>
+	<script src="lib/air/AIRLocalizer.js" type="text/javascript" charset="utf-8"></script>
+	<script src="lib/air/AIRMenuBuilder.js" type="text/javascript" charset="utf-8"></script>
+	<script src="lib/air/AIRSourceViewer.js" type="text/javascript" charset="utf-8"></script>
+	
+	<!-- jQuery -->
+	<script src="lib/jquery-1.2.6.js" type="text/javascript" charset="utf-8"></script>
+	
+	<!-- intercept plugin for event delegation -->
+	<script src="lib/jquery.intercept.js" type="text/javascript" charset="utf-8"></script>
+	
+	<!-- Just includes jquery.ui.core and tabs -->
+	<script src="lib/jquery-ui-personalized-1.5.2.js" type="text/javascript" charset="utf-8"></script>
+	
+	<!-- JSON encoder/decoder -->
+	<script src="lib/json2.js" type="text/javascript" charset="utf-8"></script>
+	
+	<!-- The app's library -->
+	<script src="lib/dearzend.js" type="text/javascript" charset="utf-8"></script>
+
+	<!-- "Mint Choc" generated at http://ui.jquery.com/themeroller/ -->
+	<link rel="stylesheet" href="css/jquery-ui-themeroller.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+	<link rel="stylesheet" href="css/dearzend.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+	
+	<script type="text/javascript" charset="utf-8">
+		$().ready( function() {
+			DZ.init();
+		});
+		
+	</script>
+	
+</head>
+
+<body>
+
+<div id="tabs">
+
+	<ul>
+		<li class="ui-tabs-nav-item"><a href="#post">Post</a></li>
+		<li class="ui-tabs-nav-item"><a href="#list">Newest</a></li>
+	</ul>
+	<div id="post">
+		<form>
+			<textarea id="entrybox"></textarea>
+			<input type="button" name="submit" value="Send" id="submit" />
+		</form>
+		
+	</div>
+	<div id="list">
+		
+		
+	</div>
+</div>
+
+<div id="status"></div>
+	
+	
+</body>
+</html>
